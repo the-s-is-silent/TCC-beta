@@ -1,7 +1,6 @@
 [
-{
- "name": "Gorilla",
- "movementType": "Land",
- //"uniques": ["",]
- },
+	{
+		"name": "Gorilla",
+		"movementType": "Land"
+	}
 ]
