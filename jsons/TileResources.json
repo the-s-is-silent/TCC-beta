@@ -1,13 +1,11 @@
 [
-{
+	{
 		"name": "Bananas",
  		"resourceType": "Luxury",
 		"gold": 1,
 		"food": 1,
-                "uniques": [
-			"[+5]% [Food] [in all cities]",
-	 ]
- },
+		"uniques": ["[+5]% [Food] [in all cities]"]
+	},
 
 	{
 		"name": "Scrap",
@@ -81,5 +79,5 @@
 			"Generated with weight [10] <in [Wasteland] Regions>",
 			"Generated near City States with weight [15]"
 		]
-	},
+	}
 ]

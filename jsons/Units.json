@@ -1,5 +1,5 @@
 [
-        {
+    {
 		"name": "Secret Bowman",
 		"unitType": "Shooter",
 		"uniqueTo": "TCC",
@@ -16,21 +16,21 @@
 		"uniques": [
 			"Low Tech",
 			"Invisible to non-adjacent units",
-                        "Can see invisible [Land] units",
-                        "May enter foreign tiles without open borders"
+			"Can see invisible [Land] units",
+			"May enter foreign tiles without open borders"
 		],
 		"promotions": ["Urban Warfare I", "Reconnaissance I"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Counter - Food",
-                "uniqueTo": "TCC",
-                "replaces": "Great Farmer",
+		"uniqueTo": "TCC",
+		"replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
-            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
-                        "Can instantly construct a [Factory Farm] improvement <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Unbuildable",
 			"Uncapturable"
@@ -39,8 +39,8 @@
 	},
 	{
 		"name": "Sectleader",
-                "uniqueTo": "TCC",
-                "replaces": "Great Sage",
+		"uniqueTo": "TCC",
+		"replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can [Spread Religion] [4] times <if it hasn't used other actions yet>",
@@ -63,11 +63,11 @@
 	},
 	{
 		"name": "Counter - History",
-                "uniqueTo": "TCC",
-                "replaces": "Great Scientist",
+		"uniqueTo": "TCC",
+		"replaces": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
-            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
 			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
 			"Great Person - [History]",
@@ -78,8 +78,8 @@
 	},
 	{
 		"name": "Counter - Economy",
-                "uniqueTo": "TCC",
-                "replaces": "Great Merchant",
+		"uniqueTo": "TCC",
+		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
@@ -93,25 +93,25 @@
 	},
 	{
 		"name": "Counter - Industry",
-                "uniqueTo": "TCC",
-                "replaces": "Great Engineer",
+		"uniqueTo": "TCC",
+		"replaces": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit> <[2] times> <after which this unit is consumed>",
+			"Can instantly construct a [Citadel] improvement <[2] times> <after which this unit is consumed>",
 			"Great Person - [Industry]",
 			"Unbuildable",
 			"Uncapturable"
 		],
 		"movement": 2
 	},
-        {
+	{
 		"name": "Counter - Arts",
-                "replaces": "Great Administrator",
+		"replaces": "Great Administrator",
 		"uniqueTo": "TCC",
 		"unitType": "Civilian",
 		"uniques": [
-            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
@@ -121,8 +121,8 @@
 	},
 	{
 		"name": "Death Counter",
-                "uniqueTo": "TCC",
-                "replaces": "Great General",
+		"uniqueTo": "TCC",
+		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
 			"[+25]% Strength bonus for [Military] units within [1] tiles",
@@ -136,8 +136,8 @@
 	},
 	{
 		"name": "Death Laser",
-                "uniqueTo": "TCC",
-                "replaces": "Machine Gun",
+		"uniqueTo": "TCC",
+		"replaces": "Machine Gun",
 		"unitType": "Siege",
 		"requiredTech": "Sect Knowledge",
 		"range": 1,
@@ -162,7 +162,7 @@
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [ "Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "phasers"
 	},
@@ -175,14 +175,14 @@
 		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"replacementTextForUniques": "Can construct all kind of Wire Traps",
+		"replacementTextForUniques": "Can construct all kinds of Wire Traps",
 		"uniques": [
 			"Can instantly construct a [Wire Trapped Solar collector] improvement <by consuming this unit>",
 			"Can instantly construct a [Wire Trapped Energy farm] improvement <by consuming this unit>",
 			"Can instantly construct a [Wire Trapped Trench] improvement <by consuming this unit>",
 			"Can instantly construct a [Wire Trapped Fort] improvement <by consuming this unit>",
 			"Can instantly construct a [Wire Trapped Survivor camp] improvement <by consuming this unit>",
-			"Can instantly construct a [Wire Trapped City ruins] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped City ruins] improvement <by consuming this unit>"
 		]
 	},
 
@@ -193,7 +193,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Cyberapes",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -216,17 +216,15 @@
 		"requiredTech": "Replaceable Parts",
 		//"upgradesTo": "Missile Vehicle",
 		//"obsoleteTech": "Lasers",
-		"uniques": [
-			"No defensive terrain bonus",
+		"uniques": ["No defensive terrain bonus",
 			"[+50]% Strength <vs [Armor] units>",
 			"[+150]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([20]%)",
 			"Consumes [1] [Weapons]",
 			"[-1] Sight",
-			"Only available <if [Gen Restoration Project] is constructed>"
-		],
+			"Only available <if [Gen Restoration Project] is constructed>"],
 		"hurryCostModifier": 20,
-		"promotions": ["Infantry Mortar","Infantry Weapons"],
+		"promotions": ["Infantry Mortar", "Infantry Weapons"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -246,9 +244,7 @@
 			"[+10]% Strength <vs [Personnel] units>",
 			"[+25]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>"],
-		"promotions": [
-			"Reconnaissance I"
-		],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -267,9 +263,7 @@
 			"[+30]% Strength <vs [Personnel] units>",
 			"[+15]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>"],
-		"promotions": [
-			"Reconnaissance I"
-		],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
 	{
@@ -282,18 +276,13 @@
 		"cost": 300,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
+		"uniques": ["Personnel",
 			"Consumes [2] [Weapons]",
 			"[+30]% Strength <vs [Personnel] units>",
 			"[+150]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>",
 			"Limited to [5] per Civilization"],
-		"promotions": [
-			"Reconnaissance I",
-			"Urban Warfare I",
-			"Guerilla Warfare I"
-		],
+		"promotions": ["Reconnaissance I", "Urban Warfare I", "Guerilla Warfare I"],
 		"attackSound": "shot"
 	},
 	{
@@ -310,16 +299,17 @@
 		"upgradesTo": "Noisemaker",
 		"obsoleteTech": "Social Engineering",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
-					 "[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
-					 "[+15]% Strength when stacked with [Mandrill]",
-					 "Can only attack [Land] tiles",
-					 "Ranged attacks may be performed over obstacles",
-					 "Religious Unit",
-					 "Can [Spread Religion] [1] times",
-					 "Only available <if [Gen Restoration Project] is constructed>"
-],
-		"religiousStrength": 500
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+			"[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+			"[+15]% Strength when stacked with [Mandrill]",
+			"Can only attack [Land] tiles",
+			"Ranged attacks may be performed over obstacles",
+			"Religious Unit",
+			"Can [Spread Religion] [1] times",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"religiousStrength": 500,
 		"attackSound": "shot"
 	},
 	{
@@ -334,16 +324,16 @@
 		"cost": 300,
 		"requiredTech": "Social Engineering",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
-					 "[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
-					 "[+20]% Strength when stacked with [Mandrill]",
-					 "Ranged attacks may be performed over obstacles",
-					 "Religious Unit",
-					 "Can [Spread Religion] [2] times",
-					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
-],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+			"[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+			"[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+			"[+20]% Strength when stacked with [Mandrill]",
+			"Ranged attacks may be performed over obstacles",
+			"Religious Unit",
+			"Can [Spread Religion] [2] times",
+			"Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>"],
 		"promotions": ["Gas Mask"],
-		"religiousStrength": 750
+		"religiousStrength": 750,
 		"attackSound": "shot"
 	},
 	{
@@ -359,5 +349,5 @@
 			"Uncapturable"
 		],
 		"movement": 1
-	},
-  ]
+	}
+]
